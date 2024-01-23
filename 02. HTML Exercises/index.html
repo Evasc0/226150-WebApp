@@ -22,14 +22,14 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>    
-</body>
+
 <main>
     <form action="/submit">
         <label for="fname">Name:</label><br>
         <input type="text" id="fname" name="fname" required><br>
         <label for="lname">Password:</label><br>
         <input type="password" id="lname" name="lname" pattern=".{10,}" required><br>
-        <label for="gender">Gender:</label><br>
+        <label for="male">Gender:</label><br>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label><br>
         <input type="radio" id="female" name="gender" value="female">
@@ -56,7 +56,9 @@
           <td>Los Angeles</td>
         </tr>
       </table> 
-      <video autoplay controls src="video/pexels_videos_2675509 (1080p).mp4"></video>
+        <video autoplay controls>
+          <source src="video/pexels_videos_2675509%20(1080p).mp4" type="video/mp4">
+        </video>
       <audio controls autoplay>
         <source src="audio/glass-of-wine-143532.mp3" type="audio/mpeg">
         <source src="audio/glass-of-wine-143532.mp3" type="audio/ogg">
@@ -66,4 +68,5 @@
 <footer>
     <p>&copy; 2022 YANSYAO FARM. All rights reserved.</p>
 </footer>
+</body>
 </html>
