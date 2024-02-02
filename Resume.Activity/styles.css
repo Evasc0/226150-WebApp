@@ -18,6 +18,13 @@ h1{
   color: var(--glow-color);
   text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
 }
+p{
+  font-size: 50px; /* Adjust font size as needed */
+  margin-top: 10px; /* Adjust margin as needed */
+  animation: text-flicker 5s linear infinite;
+  color: var(--glow-color);
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--glow-color);
+  }
 
 .glowing-header ul{
   display: flex;
@@ -300,4 +307,3 @@ height: 24px;
   font-size: 1em;
 }
 }
-
