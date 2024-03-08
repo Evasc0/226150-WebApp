@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Article styles */
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h1 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    color: #0056b3;
+    margin-top: 30px;
+}
+
+article p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+article ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+article li {
+    margin-bottom: 10px;
+}
+
+article strong {
+    font-weight: bold;
+}
+
+article i {
+    font-style: italic;
+}
+
+article div {
+    margin-bottom: 20px;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 600px) {
+    article {
+        padding: 10px;
+    }
+}
