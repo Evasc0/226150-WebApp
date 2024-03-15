@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Classes</title>
+    <style type="text/css">
+        .background {
+            background: lightblue; /* Change the background color to represent the sky */
+            width: 300px; /* Adjust width for better proportion */
+            height: 300px; /* Adjust height for better proportion */
+            border-radius: 50%; /* Make the background round */
+            position: relative; /* Position elements relative to the canvas */
+            margin: 50px auto; /* Center the canvas */
+            animation: flap 1s infinite alternate; /* Add flapping animation */
+        }
+
+        @keyframes flap {
+            0% {
+                transform: rotate(-20deg);
+            }
+            50% {
+                transform: rotate(20deg);
+            }
+            100% {
+                transform: rotate(-20deg);
+            }
+        }
+
+        .head {
+            background: #ffd700; /* Change the head color to represent the bird's head */
+            width: 100px; /* Adjust width for better proportion */
+            height: 100px; /* Adjust height for better proportion */
+            border-radius: 50%; /* Make the head round */
+            position: absolute; /* Position head */
+            top: 30px; /* Adjust the position */
+            left: 100px; /* Adjust the position */
+        }
+
+        .eyeball {
+            background: white; /* Change the eyeball color */
+            width: 20px; /* Adjust width for better proportion */
+            height: 20px; /* Adjust height for better proportion */
+            border-radius: 50%; /* Make the eyeball round */
+            position: relative; /* Position eyeball */
+            top: 25px; /* Adjust the position */
+            left: 50px; /* Adjust the position */
+        }
+
+        .pupil {
+            background: black; /* Change the pupil color */
+            width: 10px; /* Adjust width for better proportion */
+            height: 10px; /* Adjust height for better proportion */
+            border-radius: 50%; /* Make the pupil round */
+            position: relative; /* Position pupil */
+            top: 5px; /* Adjust the position */
+            left: 5px; /* Adjust the position */
+        }
+
+        .beak {
+            color: orange; /* Change the beak color */
+            position: absolute; /* Position beak */
+            top: 60px; /* Adjust the position */
+            left: 120px; /* Adjust the position */
+        }
+
+        .body {
+            background: #ffd700; /* Change the body color */
+            width: 150px; /* Adjust width for better proportion */
+            height: 200px; /* Adjust height for better proportion */
+            border-radius: 50%; /* Make the body round */
+            position: absolute; /* Position body */
+            top: 100px; /* Adjust the position */
+            left: 75px; /* Adjust the position */
+        }
+
+        .wing {
+            background: #ffd700; /* Change the wing color */
+            width: 100px; /* Adjust width for better proportion */
+            height: 170px; /* Adjust height for better proportion */
+            border-radius: 50%; /* Make the wing round */
+            position: absolute; /* Position wing */
+            top: 20px; /* Adjust the position */
+            left: -50px; /* Adjust the position */
+        }
+
+        .drumsticks {
+            position: absolute; /* Position drumsticks */
+            bottom: 10px; /* Adjust the position */
+            left: 170px; /* Adjust the position */
+        }
+
+        .drumstick,
+        .drumstick-right {
+            color: #8b4513; /* Change the drumstick color */
+        }
+    </style>
+</head>
+<body>
+    <div class="canvas background">
+        <div class="head">
+            <div class="eyeball">
+                <span class="pupil">&middot;</span>
+            </div>
+            <div class="beak">
+                <strong>&gt;</strong>
+            </div>
+        </div>
+        <div class="body">
+            <div class="wing"></div> <!-- Added left wing -->
+            <div class="wing" style="transform: rotate(180deg);"></div> <!-- Added right wing -->
+        </div>
+        <div class="drumsticks">
+            <div class="drumstick">|
+                <br/>/|
+            </div>
+            <div class="drumstick-right">|
+                <br/>/|
+            </div>
+        </div>
+    </div>
+</body>
+</html>
