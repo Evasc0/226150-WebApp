@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/techdoc.css" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>What I've Learned in Class CC14</header>
+        <ul>
+            <li><a class="nav-link" href="#Client-Side_vs_Server-Side_Development">Client-Side vs. Server-Side Development</a></li>
+            <li><a class="nav-link" href="#Overview_of_Web_Technologies">Overview of Web Technologies</a></li>
+            <li><a class="nav-link" href="#Git">Git</a></li>
+            <li><a class="nav-link" href="#html5">Introduction to HTML5, CSS and JavaScript</a></li>
+            <li><a class="nav-link" href="#git">10 Advanced Git Commands</a></li>
+            <li><a class="nav-link" href="#css">Introducing Cascading Style Sheets</a></li>
+            <li><a class="nav-link" href="#wsl">Windows Subsystem for Linux</a></li>
+            <li><a class="nav-link" href="#flexbox">A Complete Guide to Flexbox</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Client-Side_vs_Server-Side_Development">
+            <header>Client-Side vs. Server-Side Development</header>
+            <article>
+                <h2>Client-Side Development:</h2>
+                <p>Client-side development refers to the activities that take place on the user's device (typically a web browser) and involve the user interface and user experience.</p>
+                <ul>
+                    <li><strong>Definition:</strong> Client-side development refers to the activities that take place on the user's device (typically a web browser) and involve the user interface and user experience.</li>
+                    <li><strong>Technologies:</strong> HTML, CSS, JavaScript, and various front-end frameworks and libraries like React, Angular, or Vue.js.</li>
+                    <li><strong>Responsibilities:</strong> Creating the structure (HTML) and style (CSS) of a web page, implementing interactive and dynamic features using JavaScript, managing the presentation layer and user interactions.</li>
+                    <li><strong>Advantages:</strong> Fast and responsive user interfaces, reduces server load, enhanced user experience.</li>
+                </ul>
+                <h2>Server-Side Development:</h2>
+                <p>Server-side development involves activities that occur on the web server, managing and processing data, handling requests, and performing various server-related operations.</p>
+                <ul>
+                    <li><strong>Definition:</strong> Server-side development involves activities that occur on the web server, managing and processing data, handling requests, and performing various server-related operations.</li>
+                    <li><strong>Technologies:</strong> Server-side languages such as PHP, Python (Django), Ruby (Ruby on Rails), Java (Spring), and JavaScript (Node.js).</li>
+                    <li><strong>Responsibilities:</strong> Handling data storage and retrieval, executing business logic, managing user authentication, generating dynamic content.</li>
+                    <li><strong>Advantages:</strong> Enhanced security, centralized control over data and logic, better scalability.</li>
+                </ul>
+                <h2>Interaction Between Client-Side and Server-Side:</h2>
+                <p>Both sides communicate through protocols like HTTP(S), and they exchange data using formats like JSON or XML. A typical web application involves the client making requests to the server, and the server responds with the necessary data or performs actions.</p>
+                <h2>Full-Stack Development:</h2>
+                <p>Developers who work on both client-side and server-side aspects are known as full-stack developers. They have a broader skill set and can handle tasks ranging from designing user interfaces to managing server infrastructure.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Overview_of_Web_Technologies">
+            <header>Overview of Web Technologies</header>
+            <article>
+                <h2>Definition of the Internet</h2>
+                <p>The Internet is a global network of interconnected computers that enables communication, information sharing, and collaboration.</p>
+                <h2>Evolution of the World Wide Web</h2>
+                <p>The World Wide Web (WWW) was created by Tim Berners-Lee in 1989. Key milestones include the development of ARPANET, TCP/IP, the Domain Name System (DNS), and the commercialization of the Internet in the 1990s.</p>
+                <h3>Key Internet Protocols</h3>
+                <ul>
+                    <li><strong>HTTP:</strong> Hypertext Transfer Protocol</li>
+                    <li><strong>HTTPS:</strong> Hypertext Transfer Protocol Secure</li>
+                    <li><strong>TCP/IP:</strong> Transmission Control Protocol/Internet Protocol</li>
+                </ul>
+                <h3>Client-Server Architecture</h3>
+                <p>Clients request services or resources, and servers provide them. Each request-response cycle is independent, with no retention of client state between requests.</p>
+                <h3>Internet Technologies</h3>
+                <ul>
+                    <li><strong>HTML:</strong> Hypertext Markup Language</li>
+                    <li><strong>CSS:</strong> Cascading Style Sheets</li>
+                    <li><strong>JavaScript:</strong> Programming language for dynamic content</li>
+                </ul>
+                <h3>Responsive Web Design</h3>
+                <p>Ensures web applications work well on various devices and screen sizes. Techniques include media queries, flexbox, and grid layout.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Git">
+            <header>Git</header>
+            <article>
+                <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. It is easy to learn and has a tiny footprint with lightning fast performance. Git outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.</p>
+            </article>
+        </section>
+        <section id="html5">
+            <h2>Introduction to HTML5, CSS and JavaScript</h2>
+            <article>
+                <h3>HTML5 (Hypertext Markup Language):</h3>
+                <ul>
+                    <li>HTML is the standard markup language used to create the structure and content of web pages.</li>
+                    <li>HTML5 is the latest version of HTML, and it introduces new features and improvements over its predecessors.</li>
+                    <li>It provides tags and attributes that define the various elements on a web page, such as headings, paragraphs, images, links, forms, and more.</li>
+                    <li>HTML5 also includes new elements like &lt;header&gt;, &lt;nav&gt;, &lt;article&gt;, &lt;section&gt;, &lt;footer&gt;, which help in structuring the content more semantically.</li>
+                </ul>
+            </article>
+            <article>
+                <h3>CSS (Cascading Style Sheets):</h3>
+                <ul>
+                    <li>CSS is used to style and layout the visual presentation of HTML documents.</li>
+                    <li>It allows you to control the colors, fonts, spacing, and positioning of elements on a web page.</li>
+                    <li>CSS is applied either internally within an HTML document, externally in a separate stylesheet file, or inline within HTML tags.</li>
+                </ul>
+            </article>
+            <article>
+                <h3>JavaScript:</h3>
+                <ul>
+                    <li>JavaScript is a scripting language that enables dynamic and interactive behavior on web pages.</li>
+                    <li>It can manipulate the content and structure of HTML, handle user input, and communicate with servers (Ajax).</li>
+                    <li>JavaScript is commonly used to create features like sliders, form validation, pop-up messages, and more.</li>
+                    <li>It can be included directly within HTML documents or linked externally.</li>
+                </ul>
+            </article>
+            <p>These three technologies (HTML5, CSS, and JavaScript) work together to create modern, dynamic, and visually appealing websites and web applications. As you progress in web development, you'll likely use frameworks and libraries that build upon these core technologies, such as React, Angular, or Vue for JavaScript, and Bootstrap or Tailwind CSS for styling.</p>
+        </section>
+        <section id="git">
+            <h2>10 Advanced Git Commands</h2>
+            <article>
+                <h3>Add & Commit</h3>
+                <p>You have added and committed the files this way multiple times, but what if I tell you it can be done in one line with the <code>-am</code> flag?</p>
+                <code>$ git add .</code>
+                <code>$ git commit -m "new project"</code>
+            </article>
+            <article>
+                <h3>Amend</h3>
+                <p>You can rename your current commit message using the <code>--amend</code> flag and write the new message. This will help you with accidental messages.</p>
+                <code>$ git commit --amend -m "Love"</code>
+            </article>
+            <article>
+                <h3>Revert</h3>
+                <p>To undo a commit in Git, you can use the <code>revert</code> command. However, this command does not remove any commits. Instead, it creates a new commit that undoes the changes made by the original commit.</p>
+                <p>We will use the <code>log</code> with <code>--oneline</code> flag to view commit history in a shorter form.</p>
+                <code>f425059 (HEAD -> master, origin/master) Love</code>
+                <code>8f184d5 first commit</code>
+            </article>
+        </section>
+        <section id="css">
+            <h2>Introducing Cascading Style Sheets</h2>
+            <article>
+                <h3>Recognizing the Benefits of Using CSS</h3>
+                <ul>
+                    <li><strong>The Evolution of CSS</strong></li>
+                    <li>CSS was developed to standardize display information</li>
+                    <li>CSS was slow to be supported by browsers</li>
+                    <li>Newer browsers offer more complete support</li>
+                    <li>Latest release is CSS3</li>
+                    <li>CSS3 is not yet evenly supported</li>
+                </ul>
+            </article>
+            <article>
+                <h3>CSS Style Rules</h3>
+                <ul>
+                    <li>In CSS, style rules express the style characteristics for an HTML element</li>
+                    <li>A set of style rules is called a style sheet</li>
+                    <li>Style rules are easy to write and interpret</li>
+                    <li>Style rules are composed of two parts: a selector and a declaration</li>
+                    <li>The selector determines the element to which the rule is applied</li>
+                    <li>The declaration details the exact property values</li>
+                </ul>
+            </article>
+        </section>
+        <section id="wsl">
+            <h2>Windows Subsystem for Linux</h2>
+            <article>
+                <h3>List of Commands</h3>
+                <table>
+                    <tr>
+                        <th>Command</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>wsl --install</td>
+                        <td>installs Linux on you computer</td>
+                    </tr>
+                    <tr>
+                        <td>wsl</td>
+                        <td>opens Linux in your terminal</td>
+                    </tr>
+                    <tr>
+                        <td>logout or exit</td>
+                        <td>returns to command prompt in windows</td>
+                    </tr>
+                    <tr>
+                        <td>clear</td>
+                        <td>clears the terminal screen</td>
+                    </tr>
+    
+                </table>
+            </article>
+            <article>
+                <h3>Apache Commands</h3>
+                <ul>
+                    <li><code>sudo apt update</code> - updates Linux before installation of Apache</li>
+                    <li><code>sudo apt upgrade</code> - upgrades Linux</li>
+                    <li><code>sudo apt-get install apache2</code> - installs Apache server</li>
+                    <li><code>sudo service apache2 start</code> - starts Apache Server</li>
+                    <li><code>sudo service apache2 stop</code> - stops Apache Server</li>
+                    <li><code>sudo nano</code> - open text editor</li>
+                    <li><code>sudo chown -R username path/to/working/directory</code> - make folder writable</li>
+                    <li><code>sudo nano /etc/apache2/sites-available/000-default.conf</code> - enable site</li>
+                    <li><code>sudo systemctl status apache2</code> - check if apache is running</li>
+                    <li><code>sudo systemctl restart apache2</code> - restart Apache. You need to this every time you change document root. Then refresh your browser to update the output.</li>
+                </ul>
+            </article>
+            <article>
+                <h3>Folder Locations</h3>
+                <ul>
+                    <li>Apache Folder - <code>/etc/apache2</code></li>
+                    <li>Document Root - <code>/var/www/</code></li>
+                </ul>
+            </article>
+        </section>
+        <section id="flexbox">
+            <h2>A Complete Guide to Flexbox</h2>
+            <article>
+                <h3>Background</h3>
+                <p>The <strong>Flexbox Layout</strong> (Flexible Box) module (<a href="https://www.w3.org/TR/css-flexbox/">a W3C Candidate Recommendation</a> as of October 2017) aims at providing a more efficient way to lay out, align and distribute space among items in a container, even when their size is unknown and/or dynamic (thus the word “flex”).</p>
+            </article>
+            <article>
+                <h3>Basics and terminology</h3>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
