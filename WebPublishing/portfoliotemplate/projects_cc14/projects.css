@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+/* VARIABLES */
+:root {
+  --primary-color: #790b0b61;
+  --secondary-color:#6e6e6e;
+}
+
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.54;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+#projects {
+    text-align: center;
+    width: 100%;
+    padding: 7rem .1rem;
+    background-color: var(--secondary-color);
+  }
+  
+  #projects .projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 3rem;
+    grid-column-gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  #projects .container>h1 {
+    font-size: 2.6rem;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-bottom: .6rem;
+    line-height: 1.2;
+  }
+  
+  #bottom-line {
+    height: 6px;
+    background-color: #ff0077;
+    width: 55%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+  
+  #projects .projects .box {
+    background-color: #fffbfb;
+    border: 5px solid #ff0077;
+    border-radius: 3px;
+  }
+  
+  #projects .projects .box a {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  #projects .projects .box a p {
+    padding: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+  }
+  
+  
+  .code {
+    color: #eee;
+    transition: .5s all ease;
+    font-size: 1.6rem;
+  }
+  
+  #projects .projects .box:hover .code {
+    color: var(--primary-color);
+  }
+  
+  /* CONTACT SECTION */
+  #contact {
+    height: 80vh;
+    background-color: #444;
+    color: #fff;
+  }
+  
+  #contact .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  #contact .container h1 {
+    font-size: 3.4rem;
+    font-weight: bolder;
+    padding-bottom: .1rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  #contact .container p {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+  }
+  
+  #contact .container .social>div a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #eee;
+    margin: 1rem 2rem;
+    font-weight: bolder;
+    transition: transform .5s;
+  }
+  
+  #contact .container .social>div a:hover {
+    transform: translateY(-5px);
+  }
+  
